@@ -1,3 +1,170 @@
-h1{
+/* utilities */
+.reduce-size-img{
+    height: 200px;
+}
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.text-center{
+   text-align: center;
+}
+.btn{
+    background-color: brown;
+    color: cornsilk;
+    border-radius:  10px;
+    padding: 0.8rem 2rem;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+.btn:hover{
+    background-color: cyan;
+    color: black;
+}
+.margin-buttom{
+    margin-bottom: 1rem;
+}
+
+/* ********* */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 952px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.identi-right img{
+    height: 380px;
+    
+}
+
+.identistyle{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding: 1rem;
+}
+.identi-left{
+    margin-top: 5rem;
+}
+.identi-left h1{
+    font-weight: bolder;
+    border-left: 4px solid;
+    border-image: linear-gradient(#00f,#000) 0 100%;
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+}
+.identi-left h1 span{
+    color: rgb(216, 150, 69);
+}
+.identi-left p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.identi-right{
+    margin-left: 5rem;
+}
+.my-mission .container h1{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 2.5rem;
+}
+.my-mission .container h1 span{
+    color:rgb(252, 118, 56) ;
+}
+/* .mission-area{
+    margin-bottom: 2rem;
+} */
+.mission{
+    background-color: slategray;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.vission{
+    background-color:pink;
+    border-radius: 10px;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+.goal{
+    background-color:rgba(11, 243, 100, 0.253);
+    border-radius: 10px;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+.dev-flex{
+    margin-top: 5rem;
+    justify-content: center;
+    justify-content: space-between;
+}
+.dev-right {
+    margin-left:3rem;
+    margin-top: 
+}
+/* .devoloper{
+    background-color: black;
+} */
+
+.input-wrap{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap:2rem;
+  grid-row-gap:6rem;
+  margin-bottom: 2rem;
+}
+.input-wrap-2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-wrap-2 input{
+    margin-bottom: 2rem;
+}
+.input-wrap-2 textarea{
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+    
+}
+.submit{
+    text-align: center;
+}
+.form input{
+    padding: .5rem;
+   
+}
+.contact-setion{
+    padding-top: 5rem;
+}
+.contact-setion h1{
+    margin-bottom: 2rem;
+}
+.contact-setion h1 span{
     color: aquamarine;
+}
+footer{
+    margin-top: 3rem;
+    padding: 3.5rem;
+    background-color: black;
+}
+footer h1{
+    
+    color: blanchedalmond;
+}
+footer h1 span{
+    color: rgb(247, 143, 8);
+}
+footer h4{
+    color: cadetblue;
 }
